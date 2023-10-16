@@ -1,0 +1,92 @@
+body {
+  background: radial-gradient(
+    circle,
+    rgba(247, 85, 249, 1) 15%,
+    rgba(222, 37, 155, 1) 40%,
+    rgba(136, 219, 224, 1) 95%
+  );
+  margin: 0;
+  padding: 5px;
+}
+
+
+@font-face {
+    font-family: 'EB Garamond', serif;
+}
+
+h1{
+    text-align: center;
+    color: rgb(112, 22, 124)
+    
+}
+
+
+
+.titulo{
+    font-family: EB Garamond ;
+    font-weight: 700;
+    border-top: solid 2px aquamarine;
+    border-left: solid 5px cyan;
+    border-right: solid 5px yellowgreen;
+    border-bottom: solid 3px goldenrod;
+   
+}
+
+h2{
+    text-align: center;
+    font-family: 'EB Garamond';
+    font-weight: 500;
+    background: rgba(255, 182, 194, 0.678);
+    color: rgb(226, 56, 135);
+}
+
+h3{
+    text-align: center;
+    font-family: serif;
+    font-weight: 400;
+    color: rgb(80, 23, 92);
+}
+
+.enlace{
+    text-align: center;
+
+}
+
+.img-container img{
+    height: 600px;
+    width: 500px;
+    border-radius: 10%;
+    padding-inline: 5px;
+
+}
+
+.img-container{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    filter: drop-shadow(2px 4px 6px black);
+    justify-content: center;
+    
+}
+
+p{
+    padding-inline: 2px;
+}
+.texto{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    padding: 5px 10px;
+    font-family: 'EB Garamond';
+    font-weight: 500;
+    background: rgba(240, 128, 128, 0.596);
+}
+
+.hovered:hover{
+    font-size: 45px;
+}
+
+
