@@ -10,9 +10,11 @@ body {
 }
 
 
-@font-face {
-    font-family: 'EB Garamond', serif;
+@font-face{
+    font-family: EB Garamond, serif;
 }
+    
+
 
 h1{
     text-align: center;
